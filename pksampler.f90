@@ -35,9 +35,9 @@ enddo
 close(20)
 
 !correlation for fixed peak height difference
-nu1=2.3
-nu2=2.5
-nrand=500000
+nu1=2.33
+nu2=2.57
+nrand=5000000
 
 
 xmin=0.0d0
@@ -59,7 +59,7 @@ do i=1,nr
 enddo
 close(20)
 
-
+stop
 !lognormal sample of peak heights
 xipktmp=0.0d0
 xipk=0.0d0
